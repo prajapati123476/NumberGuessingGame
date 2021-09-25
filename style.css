@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+        font-family: sans-serif;
+      }
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
 p,
 .form,
 h1 {
